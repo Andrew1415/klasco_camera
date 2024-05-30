@@ -2,9 +2,6 @@ import cv2
 import time
 import os
 
-
-
-
 def setup_video_capture(rtsp_url):
     cap = cv2.VideoCapture(rtsp_url)
     if not cap.isOpened():
